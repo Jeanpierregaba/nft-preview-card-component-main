@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'outfit';
+}
+
+.container{
+    position: relative;
+    margin: 50px auto;
+    width: 95%;
+    height: 650px;
+}
+
+.second-line{
+    position: absolute;
+    background-color:hsla(216, 65%, 9%, 0.166) ;
+    width: 375px;
+    height: 550px;
+    left: 38%;
+    top: 20%;
+    border-radius: 8%;
+}
+
+.card{
+    position: absolute;
+    background-color: hsl(216, 50%, 16%);
+    width: 325px;
+    height: 600px;
+    left: 7%;
+    bottom: 5%;
+    border-radius: 5%;
+}
+
+.zone-img .main-img{
+    position: absolute;
+    width: 280px;
+    left: 7%;
+    top: 4%;
+    border-radius: 5%;
+}
+
+.zone-img:hover .main-img{
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.nft-name{
+    position: absolute;
+    top: 55%;
+    left: 7%;
+    color: white;
+    background-color: transparent;
+
+}
+
+.nft-name:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.card p {
+    position: absolute;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+    font-weight: 300;
+    top: 63%;
+    left: 7%;
+    background-color: transparent;
+}
+
+.price img{
+    position: absolute;
+    background-color: transparent;
+    top: 75%;
+    left: 7%;
+}
+
+.price span{
+    position: absolute;
+    background-color: transparent;
+    left: 15%;
+    top: 75%;
+    color: hsl(178, 100%, 50%);
+}
+
+.time img{
+    position: absolute;
+    background-color: transparent;
+    top: 75%;
+    left: 62%;
+}
+
+.time span{
+    position: absolute;
+    background-color: transparent;
+    top: 75%;
+    left: 70%;
+    color: hsl(215, 51%, 70%);
+}
+
+.author{
+    position: absolute;
+    border-top: 1px solid hsl(215, 51%, 70%);
+    background-color: transparent;
+    width: 275px; 
+    height: 50px;
+    bottom: 5%;
+    left: 7%;
+}
+
+.author img{
+    position: absolute;
+    background-color: transparent;
+    width: 35px;
+    left: 7%;
+    bottom: 5%;
+}
+
+.author span{
+    position: absolute;
+    background-color: transparent;
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+    bottom: 5%;
+    left: 25%;
+}
+
+.author .author-name{
+    position: absolute;
+    color: white;
+    font-size: 18px;
+    background-color: transparent;
+    bottom: 5%;
+    left: 55%;
+    font-size: 15px;
+}
+
+.author .author-name:hover{
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+@media screen and (max-width:1440px) {
+    .container{
+        position: relative;
+        width: 375px;
+        height: 700px;
+        margin: 0px auto;
+    }
+
+    .second-line{
+        position: absolute;
+        left: 0%;
+    }
+}
+
+@media screen  and (max-width:375px) {
+    .container{
+        margin: 0px auto;
+    }
+    
+}
+
+.attribution {
+    font-size: 11px; text-align: center;
+}
+.attribution a {
+    color: hsl(228, 45%, 44%); 
+}
